@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<title>112051072 - 履歷</title>
+<style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #e26a6a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 16px;
+    }
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 25px;
+    }
+    h2 {
+      border-left: 5px solid #e26a6a;
+      padding-left: 10px;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      margin: 20px 0;
+    }
+    button {
+      background: #e26a6a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #c75454;
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>我的履歷</h1>
+<p>學號：112051072</p>
+</header>
+<main>
+<section>
+<h2>基本資料</h2><img alt="個人照片" src="photo/db29102d-0657-4a47-ad5d-067ba660b4b6" style="width:200px; border-radius:12px; margin-top:10px;"/>
+<ul>
+<li>姓名：王</li>
+<li>年齡：21 歲</li>
+<li>Email：112051072@live.asia.edu.tw</li>
+</ul>
+</section>
+<section>
+<h2>學歷</h2>
+<ul>
+<li>亞洲大學 數位媒體設計學系（2022 - 至今）</li>
+</ul>
+</section>
+<section>
+<h2>技能</h2>
+<ul>
+<li>數位設計：Photoshop、Illustrator、Figma</li>
+<li>3D建模：Blender、Maya</li>
+<li>程式基礎：HTML、CSS、JavaScript</li>
+<li>語言能力：中文（母語）、英文（良好）</li>
+</ul>
+</section>
+<section>
+<h2>經歷</h2>
+<ul>
+<li>2024 - 參加校內數位設計競賽，獲佳作</li>
+<li>2023 - 系學會活動組成員</li>
+</ul>
+</section>
+<button onclick="showMessage()">點我留言</button>
+<p id="msg"></p>
+</main>
+<footer>
+    © 2025 112051072
+  </footer>
+<script>
+    function showMessage() {
+      document.getElementById("msg").innerText = "感謝您瀏覽我的履歷！";
+    }
+  </script>
+</body>
+</html>
